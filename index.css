@@ -45,12 +45,13 @@
 .title{
     text-align: center;
     font-weight: 900;
+    margin-bottom: 30px;
 }
 
 .title-text{
-    font-size: 70px;
+    font-size: 90px;
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: 20px;
+    letter-spacing: 7px;
     font-weight: 900;
 }
 
@@ -67,30 +68,33 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    border: 1px solid red;
     height: 135px;
     font-family: 'Fjalla One', sans-serif;
     font-size: 50px;
-    padding-left: 15px;
+    padding-left: 41px;
+    margin-left: 20px;
+    padding-top: 7px;
     letter-spacing: 5px;
     font-weight: 100;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 
 .left-side__container{
     display: flex;
     justify-content: space-around;
-    border: 1px solid blue;
 }
 
+
 .left-side__container p{
-    border: 1px solid green;
-    padding: 10px 15px;
-    height: 230px;
+    padding: 10px 21px;
+    height: auto;
 }
 
 .right-side{
     width: 50%;
+    text-align: center;
 }
 
 .right-side img{
